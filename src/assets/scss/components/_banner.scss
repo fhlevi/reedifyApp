@@ -1,0 +1,82 @@
+.banner-vector {
+    img {
+        position: absolute;
+        width: 70%;
+        min-width: 50%;
+        height: auto;
+        z-index: 0;
+        top: -65px;
+        right: 0;
+    }    
+}
+
+.section-banner {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 256px;
+    align-items: center;
+    position: relative;
+    .container-banner {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 auto 166px;
+        width: auto;
+        height: 100%;
+        padding: 24px 0px;
+        position: relative;
+        justify-content: center;
+        .text-title-section {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 155px;
+            margin-bottom: 38px;
+            max-width: 1000px;
+            min-width: 250px;
+            margin-left: 100px;
+            margin-top: -140px;
+        }
+        .text-sub-title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 380;
+            font-size: 26px;
+            line-height: 36px;
+            margin-bottom: 40px;
+            margin-left: 100px;
+            margin-top: -60px;
+        }
+        
+        // icon setting
+        .float-left {
+            width: 100%;
+            justify-content: left;
+        }
+
+        // Powered by
+        .banner--powered {
+            font-family: "Turret Road",Verdana,Geneva,Tahoma,sans-serif;
+            display: flex;
+            align-items: center;
+            margin-right: 90px;
+            margin-left: auto;
+            margin-top: 18px;
+
+            p {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 29px;
+                margin-right: -333px;
+                margin-bottom: -5px;
+            }
+
+            img {
+                width: 195px;
+                height: 32px;
+                margin-left: 250px;
+            }
+        }
+    }
+}

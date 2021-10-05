@@ -1,0 +1,6 @@
+@mixin prefix($prop, $val, $prefixes: webkit moz ms o, $important: false ) {
+    @each $prefix in  $prefixes{
+        -#{$prefix}-#{$prop}: $val if($important, !important, null);
+    }
+    #{$prop}: $val if($important, !important, null);
+}

@@ -1,0 +1,23 @@
+@import 'abstract/init';
+@import 'base/init';
+@import 'components/init';
+@import 'pages/init';
+
+html {
+    height: 100%;
+    overflow-y: auto !important;
+}
+
+body {
+    background: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+@include scrollbar;
+
+.theme--dark.v-application {
+    background: #000000;
+}

@@ -1,0 +1,21 @@
+.reedify-header {
+    &.theme--dark.v-app-bar.v-toolbar.v-sheet {
+        background-color: transparent;
+    }
+
+    &.header-bg {
+        &.theme--dark.v-app-bar.v-toolbar.v-sheet {
+            background-color: #000000a4 !important;
+        }   
+    }
+
+    .header-title.v-toolbar__title {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    img.reedify-header-image {
+        height: 44px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,17 @@
+@each $value in 100 200 300 400 500 600 700 {
+    .font-#{$value}{
+        font-weight: #{$value};
+        &.need{
+            font-weight: #{$value} !important;
+        }
+    }
+}
+
+@for $i from 10 through 50{
+    .text-#{$i}{
+        font-size: #{$i}px;
+        &.need{
+            font-size: #{$i}px !important;
+        }
+    }
+}
