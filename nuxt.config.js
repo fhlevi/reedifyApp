@@ -3,10 +3,7 @@ import { resolve } from 'path'
 
 export default {
   target: 'static',
-  mode: 'universal',
-  // Main directory root
   srcDir: 'src/',
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: 'ReedifyFinance',
     meta: [
