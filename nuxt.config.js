@@ -2,6 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 import { resolve } from 'path'
 
 export default {
+  target: 'static',
   mode: 'universal',
   // Main directory root
   srcDir: 'src/',
@@ -57,7 +58,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    ['nuxt-fontawesome', 
+    ['nuxt-fontawesome',
       {
         component: 'fa',
         imports: [
